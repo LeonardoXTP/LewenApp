@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!-- Base application theme. -->
+<style name="Base.Theme.Lewen" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Colores para ambos modos claro y oscuro -->
+    <item name="colorPrimary">@color/black</item>
+    <item name="colorPrimaryDark">@color/black</item>
+    <item name="colorAccent">@color/black</item>
+</style>
+
+<style name="Theme.Lewen" parent="Base.Theme.Lewen" />
+
+<style name="Theme.Lewen.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+</style>
+
+<style name="Theme.Lewen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+<style name="Theme.Lewen.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

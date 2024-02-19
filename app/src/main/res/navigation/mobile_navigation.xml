@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.lewen.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_mascotas"
+            app:destination="@id/nav_mascotas" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_miembros"
+            app:destination="@id/nav_miembros" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_marketplace"
+            app:destination="@id/nav_marketplace" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_contacto"
+            app:destination="@id/nav_contacto" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_configuracion"
+            app:destination="@id/nav_configuracion" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_mascotas"
+        android:name="com.example.lewen.ui.mascotas.MascotasFragment"
+        android:label="@string/menu_mascota"
+        tools:layout="@layout/fragment_mascotas" />
+
+    <fragment
+        android:id="@+id/nav_cartera"
+        android:name="com.example.lewen.ui.cartera.CarteraFragment"
+        android:label="@string/menu_cartera"
+        tools:layout="@layout/fragment_cartera" />
+
+    <fragment
+        android:id="@+id/nav_configuracion"
+        android:name="com.example.lewen.ui.configuracion.ConfiguracionFragment"
+        android:label="@string/menu_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+
+    <fragment
+        android:id="@+id/nav_masinfo"
+        android:name="com.example.lewen.ui.masinfo.MasInfoFragment"
+        android:label="@string/menu_masinfo"
+        tools:layout="@layout/fragment_masinfo" />
+
+    <fragment
+        android:id="@+id/nav_miembros"
+        android:name="com.example.lewen.ui.miembros.MiembrosFragment"
+        android:label="@string/menu_miembro"
+        tools:layout="@layout/fragment_miembros" />
+
+    <fragment
+        android:id="@+id/nav_marketplace"
+        android:name="com.example.lewen.ui.marketplace.MarketplaceFragment"
+        android:label="@string/menu_marketplace"
+        tools:layout="@layout/fragment_marketplace" />
+
+    <fragment
+        android:id="@+id/nav_contacto"
+        android:name="com.example.lewen.ui.contacto.ContactoFragment"
+        android:label="@string/menu_contacto"
+        tools:layout="@layout/fragment_contacto" />
+
+</navigation>

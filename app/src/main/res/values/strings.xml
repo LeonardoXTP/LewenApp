@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Lewen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Lewen</string>
+    <string name="nav_header_subtitle">Cuida a quien te cuida</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_title">Inicio</string>
+    <string name="menu_home">Página Principal</string>
+    <string name="menu_mascota">Subir mascota</string>
+    <string name="menu_miembro">Ser miembro</string>
+    <string name="menu_marketplace">MarkPetPlace</string>
+    <string name="menu_contacto">Contacto</string>
+
+    <string name="menu_herramientas">Más herramientas</string>
+    <string name="menu_cartera">Cartera</string>
+    <string name="menu_configuracion">Configuración</string>
+    <string name="menu_masinfo">Más información</string>
+
+    <!-- ###################### INICIO DE SESIÓN Y REGISTRO ###################### -->
+
+    <string name="bienvenida">¡Bienvenido a Lewen!</string>
+
+    <!-- Hints -->
+    <string name="hint_user">Usuario</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_pwd">Contraseña</string>
+    <string name="hint_conf_pwd">Confirmar contraseña</string>
+
+    <!-- Botones -->
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+
+    <!-- Text -->
+    <string name="olvidona">¿Olvidaste tu contraseña?</string>
+    <string name="recordar_disp">Recordar dispositivo</string>
+    <string name="opciones_inicio">O inicia sesión con:</string>
+    <string name="opciones_registro">O registrate con:</string>
+
+    <!-- ###################### FRAGMENTO: CONTACTO ###################### -->
+
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="mensaje">Mensaje</string>
+
+    <!-- Botones -->
+    <string name="enviar">Enviar</string>
+    <string name="llamar">Llamar</string>
+
+    <!-- ###################### FRAGMENTO: CARTERA ###################### -->
+
+    <!-- Text -->
+    <string name="pin">Ingrese su PIN:</string>
+    <string name="num_tarjeta">Número de tarjeta</string>
+    <string name="nomb_tarjeta">Nombre en la tarjeta</string>
+    <string name="fecha_exp">Fecha de expiración</string>
+    <string name="cvv">CVV</string>
+
+    <!-- Hints -->
+    <string name="hint_num_tarjeta">0000–0000–0000–0000</string>
+    <string name="hint_nomb_tarjeta">Ej. Leonardo Tandalla</string>
+    <string name="hint_mes">00</string>
+    <string name="hint_año">00</string>
+    <string name="hint_cvv">000</string>
+
+    <!-- Botones -->
+    <string name="confirmar">Confirmar</string>
+    <string name="agg_tarjeta">Agregar tarjeta</string>
+
+
+    <!-- ###################### FRAGMENTO: CONFIGURACIÓN ###################### -->
+
+    <!-- Text -->
+    <string name="texto_ejemplo">El texto principal se verá así. \n 1234567890!@#%&amp;*()_+-=</string>
+    <string name="tam_fuente">Tamaño de la fuente</string>
+    <string name="fuente_contraste">Fuentes de contraste alto</string>
+    <string name="teclado_contraste">Teclado de contraste alto</string>
+    <string name="resaltar_btn">Resaltar botones</string>
+    <string name="inv_colores">Inversión de colores</string>
+    <string name="extraatenuado">Extraatenuado</string>
+    <string name="reducir_tyd">Reducir transpatencia y desenfoque</string>
+
+    <!-- Botones -->
+    <string name="aplicar">Aplicar cambios</string>
+
+
+    <!-- ###################### FRAGMENTO: MAS INFO ###################### -->
+
+    <!-- Text -->
+    <string name="pregunta1">¿Qué es Lewen?</string>
+    <string name="respuesta1">Lewen es una plataforma integral para dueños de mascotas y amantes de los animales, diseñada para facilitar el cuidado, la conexión y el disfrute de las mascotas en la comunidad.</string>
+
+    <string name="pregunta2">¿Cuál es el propósito de la aplicación?</string>
+    <string name="respuesta2">Nuestro propósito es proporcionar una solución completa para todas las necesidades relacionadas con el cuidado de mascotas, desde encontrar servicios locales hasta conectar con otros amantes de los animales en la comunidad.</string>
+
+    <string name="pregunta3">¿Quiénes somos?</string>
+    <string name="respuesta3">Somos un equipo apasionado de amantes de los animales y desarrolladores de aplicaciones comprometidos a mejorar la vida de las mascotas y sus dueños.</string>
+
+    <string name="pregunta4">¿Cómo surgió la idea de crear esta aplicación?</string>
+    <string name="respuesta4">La idea de crear esta aplicación surgió de nuestra propia experiencia como dueños de mascotas y de la necesidad de una plataforma centralizada para acceder a servicios de cuidado de mascotas y conectar con otros amantes de los animales en nuestra comunidad.</string>
+
+    <string name="pregunta5">¿Cuál es nuestra misión?</string>
+    <string name="respuesta5">Nuestra misión es promover el bienestar de las mascotas y facilitar una experiencia positiva y enriquecedora para los dueños de mascotas a través de nuestra plataforma.</string>
+
+    <string name="pregunta6">¿Qué servicios ofrece nuestra aplicación?</string>
+    <string name="respuesta6">La aplicación ofrece una amplia gama de servicios, incluyendo búsqueda y reserva de paseadores de perros, cuidadores de mascotas, entrenadores, servicios de grooming y recursos de salud para mascotas.</string>
+
+    <string name="pregunta7">¿Cómo puedes contribuir o participar en nuestra comunidad?</string>
+    <string name="respuesta7">¡Nos encantaría que te unieras a nuestra comunidad! Puedes participar compartiendo tus historias de mascotas, recomendando servicios locales, organizando eventos para mascotas y ayudando a otros miembros de la comunidad con tus conocimientos y experiencias.</string>
+
+    <string name="pregunta8">¿Cómo puedes contactarnos?</string>
+    <string name="respuesta8">Puedes contactarnos a través de lewen@gmail.com o 623590056. También puedes seguirnos en nuestras redes sociales para estar al tanto de las últimas actualizaciones y noticias.</string>
+
+
+    <!-- ###################### FRAGMENTOS EN PROCESO ###################### -->
+
+    <string name="en_proceso">Página en proceso...</string>
+
+</resources>

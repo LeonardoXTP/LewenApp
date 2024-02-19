@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cartera.CarteraFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtPIN"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="5dp"
+            android:text="Introduzca su PIN:"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/edtxtPIN"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:inputType="number"
+            android:letterSpacing="2"
+            android:maxLength="4"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.example.numpad.NumPad
+            android:id="@+id/numpad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnPIN"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/gris"
+            android:text="Confirmar"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLay2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/txtCartera"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgMasterC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:src="@drawable/mastercard" />
+
+            <ImageView
+                android:id="@+id/imgVisa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/visa" />
+
+            <ImageView
+                android:id="@+id/imgAmericanE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:src="@drawable/american" />
+
+            <ImageView
+                android:id="@+id/imgDiscover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/discover" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtNumTar"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="5dp"
+            android:text="@string/num_tarjeta"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/edtxtNumTar"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/corner_radius"
+            android:backgroundTint="@color/semi_transparent"
+            android:ems="10"
+            android:hint="@string/hint_num_tarjeta"
+            android:inputType="number"
+            android:maxLength="16"
+            android:paddingLeft="30dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint_color" />
+
+        <TextView
+            android:id="@+id/txtNomTar"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="5dp"
+            android:text="@string/nomb_tarjeta"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/edtxtNomTar"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/corner_radius"
+            android:backgroundTint="@color/semi_transparent"
+            android:ems="10"
+            android:hint="@string/hint_nomb_tarjeta"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint_color" />
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtFechaExp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/fecha_exp"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@+id/edtxtMes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/corner_radius"
+                        android:backgroundTint="@color/semi_transparent"
+                        android:ems="10"
+                        android:hint="@string/hint_mes"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:paddingLeft="30dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/hint_color" />
+
+                    <EditText
+                        android:id="@+id/edtxtAño"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/corner_radius"
+                        android:backgroundTint="@color/semi_transparent"
+                        android:ems="10"
+                        android:hint="@string/hint_año"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:paddingLeft="30dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/hint_color" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtCVV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/cvv"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/edtxtCVV"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/corner_radius"
+                    android:backgroundTint="@color/semi_transparent"
+                    android:ems="10"
+                    android:hint="@string/hint_cvv"
+                    android:inputType="numberPassword"
+                    android:maxLength="3"
+                    android:paddingLeft="30dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hint_color" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAgregarTar"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:backgroundTint="@color/gris"
+            android:text="Agregar Tarjeta"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+</FrameLayout>
